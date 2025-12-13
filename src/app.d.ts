@@ -10,4 +10,13 @@ declare global {
 	}
 }
 
+declare module '*.md' {
+	import { SvelteComponent } from 'svelte';
+
+	// Default export là cái nội dung bài viết (Component Svelte)
+	export default class Comp extends SvelteComponent {}
+
+	// Export metadata là cái frontmatter (title, date...)
+	export const metadata: Record<string, any>;
+}
 export {};
