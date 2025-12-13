@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { processCommand, type CommandResult } from '$lib/terminal.svelte';
-	import { onMount } from 'svelte';
 	let input = $state('');
 
 	let history = $state<CommandResult[]>([]);
