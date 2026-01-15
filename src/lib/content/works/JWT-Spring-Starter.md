@@ -1,13 +1,11 @@
 ---
-title: 'Easy JWT Spring Boot Starter'
+title: 'JWT Utils'
 description: ''
 date: '2024-1-10'
 order: 3
 ---
 
 [![](https://jitpack.io/v/sneakyxzje/easy-jwt-spring-boot-starter.svg)](https://jitpack.io/#sneakyxzje/easy-jwt-spring-boot-starter)
-
-# Easy JWT Spring Boot Starter
 
 A Spring Boot Starter that helps you integrate **JWT Authentication** quickly and cleanly.  
 If you are new to JWT, you can learn more from: [JWT Documentation](https://jwt.io/introduction)
